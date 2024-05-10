@@ -37,9 +37,9 @@ app.get("/:shortUrl", async (req, res) => {
 // app.get("/:shortUrl", async (req, res) => {
 //     const shortID = req.params.shortUrl;
 //     const entry = await URL.findOneAndUpdate(
-        {
-            shortID,
-        },
+        // {
+        //     shortID,
+        // },
 //         {
 //             $push: {
 //                 visitHistory: {
