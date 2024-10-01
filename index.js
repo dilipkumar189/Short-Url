@@ -5,7 +5,7 @@ const URL = require("./models/url");
 const urlRoute = require("./routes/url");
 const app = express();
 
-const PORT = 5000;
+const PORT = 8000;
 
 connectDb("mongodb://127.0.0.1:27017/short-url");
 app.use(express.json());
