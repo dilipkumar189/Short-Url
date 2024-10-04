@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 async function connectDb(url) {
-    console.log("Received URL:", url); // Print out the received UR
+    console.log("Received URL:", url); // Print out the received U
     try {
         await mongoose.connect(url);
         console.log("Connected to MongoDB");
